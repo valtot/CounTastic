@@ -10,13 +10,15 @@ To use the GUI run the `cellCounter` in the command window or the `launchCellCou
 
 ## The GUI
 
+![image](https://user-images.githubusercontent.com/64209814/221218319-484c821b-b806-47f7-a61e-c9c318d3252d.png)
+
 
 The main figure is represented by the GUI on which users can perform counting. In this figure, the experimental image can be loaded using the control panel (see below). The GUI allows two modes: explore and count. In the explore modality, the user can navigate the image, zooming in areas of interest to count more easily. In the count modality, movements of the field of view are blocked and cells can be counted by left-clicking on the image (this will add a red marker) or removed by right-clicking in the proximity of a cell. Switching between the two modalities can be done by pressing the spacebar. The T keyboard shortcut allows you to toggle the red markers and visually inspect the image.
 
 ## The control panel
 
 The control panel contains the commands to interact with the GUI.
-
+![image](https://user-images.githubusercontent.com/64209814/221220327-be93e9f5-61ab-4f0a-95c1-df1b4664bf65.png)
 
 ### Load the image
 
