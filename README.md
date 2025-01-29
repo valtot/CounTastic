@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14761357.svg)](https://doi.org/10.5281/zenodo.14761357)
+
 # CounTastic: a MATLAB-based software for cell counting
 
 CounTastic is a MATLAB-based user interface supporting quantitative analysis of microscopy image data. This tool allows to manually count cells, improve the results of automated counting algorithms, or label new data for the training of supervised machine learning algorithms. Additionally, it includes basic computer vision tools for the automatic localization of circular objects which performs well for typical use cases (e.g. counting of c-fos+ nuclei, microglial cells, etc.). 
@@ -61,8 +63,8 @@ Please cite this tool as 
   publisher = {Zenodo},
   month     = january,
   year      = 2024,
-  doi       = {},
-  url       = {}
+  doi       = {10.5281/zenodo.14761357},
+  url       = {https://zenodo.org/records/14761357}
 }
 ```
 As source publication cite:
