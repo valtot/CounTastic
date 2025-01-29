@@ -1,12 +1,12 @@
-# MATLAB-based software for cell counting
+# CounTastic: a MATLAB-based software for cell counting
 
-This upload contains code for a MATLAB-based user interface supporting quantitative analysis of microscopy image data. This tool allows to either manually count cells, improve the results of automated counting algorithms, or even label new data for the training of supervised machine learning algorithms. Additionally, it includes basic computer vision tools for the automatic localization of circular objects which performs well for typical use cases (e.g. counting of c-fos+ nuclei). 
+CounTastic is a MATLAB-based user interface supporting quantitative analysis of microscopy image data. This tool allows to manually count cells, improve the results of automated counting algorithms, or label new data for the training of supervised machine learning algorithms. Additionally, it includes basic computer vision tools for the automatic localization of circular objects which performs well for typical use cases (e.g. counting of c-fos+ nuclei, microglial cells, etc.). 
 
 This tool was first developed to support image analysis in this [publication](https://www.cell.com/cell-reports/pdf/S2211-1247(23)00799-4.pdf).
 
 Simple computer vision techniques can address the task of cell counting for staining methods that target objects with low morphological variability. For highly heterogeneous objects, more advanced methods such as deep learning models are available. We recommend a pipeline specifically designed for biological objects ([code](https://github.com/ciampluca/counting_perineuronal_nets), [paper](https://www.sciencedirect.com/science/article/pii/S1361841522001475)). The publication comes with pre-trained models for perineuronal nets and parvalbumin-expressing neurons. Alternatively, new custom models using this GUI.
 
-To use the GUI run the `cellCounter` in the command window or the `launchCellCounter.m` script. This will open an interactive figure and a control panel.
+To use the GUI run the `counTastic` in the command window or the `launchCounter.m` script. This will open an interactive figure and a control panel.
 
 ## The GUI
 

@@ -1,4 +1,4 @@
-classdef cellCounter < handle
+classdef counTastic < handle
     properties
         fig_image
         fig_ui
@@ -47,11 +47,11 @@ classdef cellCounter < handle
         %------------------------------------------------------------------
         % CLASS CONSTRUCTOR METHOD
         %------------------------------------------------------------------
-        function app = cellCounter(imagePath)
-            % app = cellCounter()
-            % app = cellCounter(imagePath)
+        function app = counTastic(imagePath)
+            % app = counTastic()
+            % app = counTastic(imagePath)
             %
-            % cellCounter is a GUI for interactive automatic counting of
+            % counTastic is a GUI for interactive automatic counting of
             % cells and for the manual refinement of the automatic count
 
 
@@ -76,7 +76,7 @@ classdef cellCounter < handle
             heigth = 800;
             app.fig_image = figure('Color',[0.1,0.1,0.1],...
                 'Position',[(screenSize(3)-width)/2 (screenSize(4)-heigth)/2 width heigth],...
-                'Name','Cell Counter',...
+                'Name','CounTastic',...
                 'NumberTitle','off',...
                 'WindowKeyPressFcn', @app.keyParser,...
                 'CloseRequestFcn',@app.closeFunction,...

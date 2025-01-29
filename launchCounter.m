@@ -1,6 +1,6 @@
 clearvars, clc
 addpath(genpath('.'))
 
-c = cellCounter();
+c = counTastic();
 
 

@@ -1,0 +1,69 @@
+{
+    "title": "CounTastic: a MATLAB-based software for cell counting",
+    "version": "0.1.0",
+    "license": "GPL-3.0",
+    "upload_type": "software",
+    "description": "<p>This upload contains a MATLAB-based user interface supporting quantitative analysis of microscopy image data. This tool allows to manually count cells, improve the results of automated counting algorithms, or label new data for the training of supervised machine learning algorithms. Additionally, it includes basic computer vision tools for the automatic localization of circular objects which performs well for typical use cases (e.g. counting of c-fos+ nuclei, microglial cells, etc.).<\/p>",
+    "keywords": [
+      "Cell biology",
+      "Microscopy",
+      "Histology",
+      "image analysis",
+      "fluorescence",
+      "neuroscience",
+      "Cell counting",
+      "labeling",
+      "c-fos",
+      "microglia"
+    ],
+    "access_right": "open",
+    "language": "eng",
+    "contributors": [
+      {
+        "name": "Totaro, Valentino",
+        "affiliation": " BIO@SNS lab, Scuola Normale Superiore, Pisa, Italy",
+        "orcid": "0000-0001-5125-4738",
+        "type": "Editor"
+      },
+      {
+        "name": "Lupori, Leonardo",
+        "affiliation": " BIO@SNS lab, Scuola Normale Superiore, Pisa, Italy",
+        "orcid": "0000-0003-0458-5635",
+        "type": "Editor"
+      },
+      {
+        "name": "Pizzorusso, Tommaso",
+        "affiliation": " BIO@SNS lab, Scuola Normale Superiore, Pisa, Italy",
+        "orcid": "0000-0001-5614-0668",
+        "type": "Supervisor"
+      }
+    ],
+    "creators": [
+        {
+            "name": "Totaro, Valentino",
+            "affiliation": " BIO@SNS lab, Scuola Normale Superiore, Pisa, Italy",
+            "orcid": "0000-0001-5125-4738"
+          },
+          {
+            "name": "Lupori, Leonardo",
+            "affiliation": " BIO@SNS lab, Scuola Normale Superiore, Pisa, Italy",
+            "orcid": "0000-0003-0458-5635"
+          },
+          {
+            "name": "Pizzorusso, Tommaso",
+            "affiliation": " BIO@SNS lab, Scuola Normale Superiore, Pisa, Italy",
+            "orcid": "0000-0001-5614-0668"
+          }
+    ],
+    "related_identifiers":[
+        {"relation": "isPartOf", "identifier":"https://doi.org/10.1016/j.celrep.2023.112788", "resource_type":"article"},
+        {"relation": "cites", "identifier":"https://doi.org/10.1016/j.media.2022.102500", "resource_type":"article"},
+        {"relation": "cites", "identifier":"https://doi.org/10.1101/781880", "resource_type":"preprint"}
+
+    ],
+    "communities": [
+      {
+        "identifier": "scuolanormalesuperiore"
+      }
+    ]
+  }
