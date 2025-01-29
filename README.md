@@ -56,13 +56,13 @@ Please cite this tool as 
 ```
 @misc{PizzorussoLabCellCounter,
   author    = {Totaro, V. and Lupori, L. and Pizzorusso, T.},
-  title     = {MATLAB-based GUI for semi-automated cell counting}
+  title     = {CounTastic: a MATLAB-based GUI for semi-automated cell counting}
   version   = {1.0},
   publisher = {Zenodo},
   month     = january,
   year      = 2024,
-  doi       = {10.5281/zenodo.13737650},
-  url       = {http://dx.doi.org/10.5281/zenodo.13737650
+  doi       = {},
+  url       = {}
 }
 ```
 As source publication cite:
