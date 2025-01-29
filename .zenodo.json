@@ -39,26 +39,41 @@
       }
     ],
     "creators": [
-        {
-            "name": "Totaro, Valentino",
-            "affiliation": " BIO@SNS lab, Scuola Normale Superiore, Pisa, Italy",
-            "orcid": "0000-0001-5125-4738"
-          },
-          {
-            "name": "Lupori, Leonardo",
-            "affiliation": " BIO@SNS lab, Scuola Normale Superiore, Pisa, Italy",
-            "orcid": "0000-0003-0458-5635"
-          },
-          {
-            "name": "Pizzorusso, Tommaso",
-            "affiliation": " BIO@SNS lab, Scuola Normale Superiore, Pisa, Italy",
-            "orcid": "0000-0001-5614-0668"
-          }
+      {
+        "name": "Totaro, Valentino",
+        "affiliation": " BIO@SNS lab, Scuola Normale Superiore, Pisa, Italy",
+        "orcid": "0000-0001-5125-4738"
+      },
+      {
+        "name": "Lupori, Leonardo",
+        "affiliation": " BIO@SNS lab, Scuola Normale Superiore, Pisa, Italy",
+        "orcid": "0000-0003-0458-5635"
+      },
+      {
+        "name": "Pizzorusso, Tommaso",
+        "affiliation": " BIO@SNS lab, Scuola Normale Superiore, Pisa, Italy",
+        "orcid": "0000-0001-5614-0668"
+      }
     ],
     "related_identifiers":[
-        {"relation": "isPartOf", "identifier":"https://doi.org/10.1016/j.celrep.2023.112788", "resource_type":"article"},
-        {"relation": "cites", "identifier":"https://doi.org/10.1016/j.media.2022.102500", "resource_type":"article"},
-        {"relation": "cites", "identifier":"https://doi.org/10.1101/781880", "resource_type":"preprint"}
+      {
+        "relation": "isPartOf",
+        "scheme": "doi",
+        "identifier":"10.1016/j.celrep.2023.112788",
+        "resource_type":"publication-article"
+      },
+      {
+        "relation": "cites",
+        "scheme": "doi",
+        "identifier":"10.1016/j.media.2022.102500",
+        "resource_type":"publication-article"
+      },
+      {
+        "relation": "cites",
+        "scheme": "doi",
+        "identifier":"10.1101/781880",
+        "resource_type":"preprint"
+      }
 
     ],
     "communities": [
