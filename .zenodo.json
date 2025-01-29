@@ -72,8 +72,13 @@
         "relation": "cites",
         "scheme": "doi",
         "identifier":"10.1101/781880",
-        "resource_type":"preprint"
+        "resource_type":"publication-preprint"
       }
 
+    ],
+    "communities": [
+      {
+        "identifier": "scuolanormalesuperiore"
+      }
     ]
   }
